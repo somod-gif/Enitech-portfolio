@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+:root {
+  --yellow-theme-background-color: #1d1d1d;
+  --yellow-theme-main-color: #ffdd40;
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-sub-nav-background-color: #181818;
+}
+.wrapper {
+    
+  border-bottom: 1px dashed #ffdd40;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color:var(--yellow-theme-main-color);
+    position: relative;
+    display: flex;
+    flex: 1;
+}
+span svg {
+  
+    color: #ffdd40;
+  }

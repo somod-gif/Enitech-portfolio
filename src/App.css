@@ -1,0 +1,9 @@
+.App {
+  height: 100%;
+  /* text-align: center; */
+}
+.App__main__page{
+  height: calc(100% - 80px);
+}
+
+
